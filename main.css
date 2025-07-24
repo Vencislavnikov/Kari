@@ -1,0 +1,63 @@
+body, html {
+    background: url(images/reptile.png) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.form {
+    border: 1 solid #000;
+    height: auto;
+    width: 400px;
+    background-color:#ffff;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #000;
+
+}
+h1 {
+text-align: center;
+color: #333;
+margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 1.6px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+input[type="submit"] {
+    background-color: rgb(88, 123, 228);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 80%;
+    padding: 12px;
+    display: block;
+    margin: 20px auto 0 auto;
+    
+}
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+input[type="checkbox"],
+input[type="radio"] {
+margin-right: 5px;
+}
